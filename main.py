@@ -12,6 +12,7 @@ def blink(duration):
 def blinker(duration, n):
     for _ in range(n):
         blink(duration)
+        sleep(duration)
 
 
 if __name__ == '__main__':

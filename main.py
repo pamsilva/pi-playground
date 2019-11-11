@@ -53,7 +53,7 @@ def send_morse_message(message):
                 blink(0.25)
 
             elif signal == '-':
-                blink(0.5)
+                blink(0.6)
 
             else:
                 sleep(0.6)

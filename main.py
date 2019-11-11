@@ -50,7 +50,7 @@ def send_morse_message(message):
         for signal in morse_char:
 
             if signal == '.':
-                blink(0.25)
+                blink(0.2)
 
             elif signal == '-':
                 blink(0.6)
@@ -58,7 +58,7 @@ def send_morse_message(message):
             else:
                 sleep(0.6)
 
-            sleep(0.25)
+            sleep(0.3)
 
 
 if __name__ == '__main__':
